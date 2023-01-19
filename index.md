@@ -1,12 +1,15 @@
 # Portfolio
 ---
-## Natural Language Processing
+## Credit card risk analysis
 
-### CS224n: Natural Language Processing with Deep Learning
+### Adaptive decision tree
 
-My complete implementation of assignments and projects in [***CS224n: Natural Language Processing with Deep Learning***](http://web.stanford.edu/class/cs224n/) by Stanford (Winter, 2019).
+I developed a custom decision tree algorithm to optimize profits by utilizing entropy to classify data at the early stages and maximizing profit gain at the terminal nodes. This project demonstrated my ability to effectively utilize machine learning techniques to solve business problems.
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/CS224n-NLP-Solutions/tree/master/assignments/)
+
+<center><img src="images/adatree.webp"/></center>
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/tadashiorigami/Custom-decision-tree)
+[![Read on Medium](https://img.shields.io/badge/Medium-Read_Article-blue?logo=Medium)](https://medium.com/@tadashi-mori/custom-criteria-on-decision-trees-427aae331d75)
 
 **Neural Machine Translation:** An NMT system which translates texts from Spanish to English using a Bidirectional LSTM encoder for the source sentence and a Unidirectional LSTM Decoder with multiplicative attention for the target sentence ([GitHub](https://github.com/chriskhanhtran/CS224n-NLP-Solutions/tree/master/assignments/)).
 
