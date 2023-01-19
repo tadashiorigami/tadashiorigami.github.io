@@ -25,34 +25,25 @@ In comparison with the XGB model, after balancing the data by oversampling with 
 
 In 2022 there was a big discussion about "fraud in Brazil's election". The claim was based on the fact that there was an imbalance in the number of voting sections with 0 votes on Bolsonaro (144 sections) and with 0 votes on Lula (5 sections)<br>
 If the sampling from each voting section was random, the voting urns would approach a normal curve (CLT theorem).<br>
-In my exploratory analysis, I find that there's an obvious bias to explain why this happens.<br> 
+In my exploratory analysis, I find the reasons why this is possible by pointing the bias source on these sections.<br> 
 Below, you can find the link for the github notebook in Portuguese and the Medium article in English.
 
 <center><img src="images/normal.png"/></center>
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/tadashiorigami/Eleicoes-2022/blob/main/analise%20eleicao%20pos%20update.ipynb)
 [![Read on Medium](https://img.shields.io/badge/Medium-Read_Article-blue?logo=Medium)](https://medium.com/@tadashi-mori/the-brazilian-election-fraud-62c9bee0d1d0)
----
-### Detect Food Trends from Facebook Posts: Co-occurence Matrix, Lift and PPMI
-
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/detect-food-trends-facebook.html)
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/facebook-detect-food-trends)
-
-<div style="text-align: justify">First I build co-occurence matrices of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting and rare ingredient combinations that occur more than by chance, I calculate Lift and PPMI metrics. Lastly, I plot time-series data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.</div>
-<br>
-<center><img src="images/fb-food-trends.png"></center>
-<br>
 
 ---
-### Detect Spam Messages: TF-IDF and Naive Bayes Classifier
+## Property rental price analysis
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/detect-spam-nlp.html)
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/detect-spam-messages-nlp/blob/master/detect-spam-nlp.ipynb)
+Using some training data from Datacamp, in this notebook I do the ETL and the exploratory analysis on hotels and houses rental prices in San Francisco.<br>
+Feature engineering region clusters and characteristics, I create a base model based on linear regression and compare with regression trees and XGB.<br>
+To deeper understand the model's performance and what to expect from the model, I also plot the hotels on San Francisco's map to check how to improve the input data and model.<br>
+<center><img src="images/rentalprices.png"></center>
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/tadashiorigami/property-rentals-price-predictor/blob/main/notebook.ipynb)
 
-<div style="text-align: justify">In order to predict whether a message is spam, first I vectorized text messages into a format that machine learning algorithms can understand using Bag-of-Word and TF-IDF. Then I trained a machine learning model to learn to discriminate between normal and spam messages. Finally, with the trained model, I classified unlabel messages into normal or spam.</div>
-<br>
-<center><img src="images/detect-spam-nlp.png"/></center>
-<br>
+---
 
+<!-- 
 ---
 ## Data Science
 
@@ -113,4 +104,4 @@ Below, you can find the link for the github notebook in Portuguese and the Mediu
 - [In America - We Call This Place Our Home (Massachusetts)](https://www.youtube.com/watch?v=jzfcM_iO0FU)
 
 ---
-<center>© 2020 Khanh Tran. Powered by Jekyll and the Minimal Theme.</center>
+<center>© 2020 Khanh Tran. Powered by Jekyll and the Minimal Theme.</center> -->
