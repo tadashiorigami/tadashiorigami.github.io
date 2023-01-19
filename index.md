@@ -18,18 +18,19 @@ An adaptation for the adaptive decision tree, generating a tree ensemble to make
 In comparison with the XGB model, after balancing the data by oversampling with Smote, the XGB predictions had a slightly worse profit performance, but higher F1, accuracy, recall and training speed.
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/tadashiorigami/custom-random-forest-application)
-
 [![Read on Medium](https://img.shields.io/badge/Medium-Read_Article-blue?logo=Medium)](https://medium.com/@tadashi-mori/custom-criteria-on-random-forest-9498b57e9cd1)
 
 ---
-### Detect Non-negative Airline Tweets: BERT for Sentiment Analysis
+## Brazilian election fraud analysis
 
-[![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1f32gj5IYIyFipoINiC8P3DvKat-WWLUK)
+In 2022 there was a big discussion about "fraud in Brazil's election". The claim was based on the fact that there was an imbalance in the number of voting sections with 0 votes on Bolsonaro (144 sections) and with 0 votes on Lula (5 sections)<br>
+If the sampling from each voting section was random, the voting urns would approach a normal curve (CLT theorem).<br>
+In my exploratory analysis, I find that there's an obvious bias to explain why this happens.<br> 
+Below, you can find the link for the github notebook in Portuguese and the Medium article in English.
 
-<div style="text-align: justify">The release of Google's BERT is described as the beginning of a new era in NLP. In this notebook I'll use the HuggingFace's transformers library to fine-tune pretrained BERT model for a classification task. Then I will compare BERT's performance with a baseline model, in which I use a TF-IDF vectorizer and a Naive Bayes classifier. The transformers library helps us quickly and efficiently fine-tune the state-of-the-art BERT model and yield an accuracy rate 10% higher than the baseline model.</div>
-
-<center><img src="images/BERT-classification.png"/></center>
-
+<center><img src="images/normal.png"/></center>
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/tadashiorigami/Eleicoes-2022/blob/main/analise%20eleicao%20pos%20update.ipynb)
+[![Read on Medium](https://img.shields.io/badge/Medium-Read_Article-blue?logo=Medium)](https://medium.com/@tadashi-mori/the-brazilian-election-fraud-62c9bee0d1d0)
 ---
 ### Detect Food Trends from Facebook Posts: Co-occurence Matrix, Lift and PPMI
 
