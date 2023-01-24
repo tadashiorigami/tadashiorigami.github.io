@@ -21,6 +21,16 @@ In comparison with the XGB model, after balancing the data by oversampling with 
 [![Read on Medium](https://img.shields.io/badge/Medium-Read_Article-blue?logo=Medium)](https://medium.com/@tadashi-mori/custom-criteria-on-random-forest-9498b57e9cd1)
 
 ---
+## Property rental price analysis
+
+Using some training data from Datacamp, in this notebook I do the ETL and the exploratory analysis on hotels and houses rental prices in San Francisco.<br>
+Feature engineering region clusters and characteristics, I create a base model based on linear regression and compare with regression trees and XGB.<br>
+To deeper understand the model's performance and what to expect from the model, I also plot the hotels on San Francisco's map to check how to improve the input data and model.<br>
+<center><img src="images/rentalprices.png"></center>
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/tadashiorigami/property-rentals-price-predictor/blob/main/notebook.ipynb)
+---
+## Data Analysis
+
 ## Brazilian election fraud analysis
 
 In 2022 there was a big discussion about "fraud in Brazil's election". The claim was based on the fact that there was an imbalance in the number of voting sections with 0 votes on Bolsonaro (144 sections) and with 0 votes on Lula (5 sections)<br>
@@ -33,15 +43,13 @@ Below, you can find the link for the github notebook in Portuguese and the Mediu
 [![Read on Medium](https://img.shields.io/badge/Medium-Read_Article-blue?logo=Medium)](https://medium.com/@tadashi-mori/the-brazilian-election-fraud-62c9bee0d1d0)
 
 ---
-## Property rental price analysis
 
-Using some training data from Datacamp, in this notebook I do the ETL and the exploratory analysis on hotels and houses rental prices in San Francisco.<br>
-Feature engineering region clusters and characteristics, I create a base model based on linear regression and compare with regression trees and XGB.<br>
-To deeper understand the model's performance and what to expect from the model, I also plot the hotels on San Francisco's map to check how to improve the input data and model.<br>
-<center><img src="images/rentalprices.png"></center>
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/tadashiorigami/property-rentals-price-predictor/blob/main/notebook.ipynb)
+## Manhattan's tree species analysis
 
----
+Visualizations of Manhattan's trees and quick analisys of which tree species would be better suited to be planted.
+<center><img src="images/manh.png"/></center>
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/tadashiorigami/Manhattan-Trees/blob/main/notebook.ipynb)
+
 
 <!-- 
 ---
