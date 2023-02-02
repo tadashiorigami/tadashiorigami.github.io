@@ -27,7 +27,9 @@ Using some training data from Datacamp, in this notebook I do the ETL and the ex
 Feature engineering region clusters and characteristics, I create a base model based on linear regression and compare with regression trees and XGB.<br>
 To deeper understand the model's performance and what to expect from the model, I also plot the hotels on San Francisco's map to check how to improve the input data and model.<br>
 <center><img src="images/rentalprices.png"></center>
+<a href="pdf/property rentals.pdf">PDF</a>
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/tadashiorigami/property-rentals-price-predictor/blob/main/notebook.ipynb)
+
 ---
 ## Data Analysis
 
